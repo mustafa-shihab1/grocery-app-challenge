@@ -1,4 +1,4 @@
-# challenges
+# Grocery App Challenge
 
 A new Flutter Challenge
 
