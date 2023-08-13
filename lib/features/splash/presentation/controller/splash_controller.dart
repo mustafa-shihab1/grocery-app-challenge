@@ -11,7 +11,7 @@ class SplashController extends GetxController {
         const Duration(
           seconds: Constants.splashDuration,
         ), () {
-          Get.offAllNamed(Routes.mainView);
+          Get.offAllNamed(Routes.onBoardingView);
     });
   }
 

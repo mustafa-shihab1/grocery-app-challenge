@@ -16,6 +16,16 @@ class ManagerStrings{
   static const String peach = 'Fresh Peach';
   static const String pineapple = 'Pineapple';
   static const String pomegranate = 'Pomegranate';
-  static const String noRoutFound = 'No Rout Found';
+  static const String noRoutFound = 'No Route Found';
+  static const String onBoardingTitle1 = 'Welcome to';
+  static const String onBoardingTitle2 = 'Buy Quality\nDairy Products';
+  static const String onBoardingTitle3 = 'Buy Premium\nQuality Fruits';
+  static const String onBoardingTitle4 = 'Buy Quality\nDairy Products';
+  static const String onBoardingDescription =
+      'Lorem ipsum dolor sit amet, consetetur\nsadipscing elitr, sed diam nonumy';
+  static const String back = 'Back';
+  static const String next = 'Next';
+
+
 
 }

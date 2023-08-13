@@ -1,6 +1,7 @@
 import 'package:challenges/core/resources/manager_strings.dart';
 import 'package:challenges/config/dependency_injection.dart';
 import 'package:challenges/features/main/presentation/view/main_view.dart';
+import 'package:challenges/features/on_boarding/presentation/view/on_boarding_view.dart';
 import 'package:challenges/features/splash/presentation/view/splash_view.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,9 @@ class RouteGenerator {
       case Routes.splashView:
         initSplash();
         return MaterialPageRoute(builder: (_) => const SplashView());
+      case Routes.onBoardingView:
+        initOnBoardingModule();
+        return MaterialPageRoute(builder: (_) => const OnBoardingView());
       case Routes.mainView:
         initMainModule();
         return MaterialPageRoute(builder: (_) => const MainView());

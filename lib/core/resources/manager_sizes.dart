@@ -141,4 +141,7 @@ class ManagerOpacity {
 class ConstantSize {
   static double s5 = 5;
   static double s2 = 2;
+  static double s18 = 18;
+  static double s16 = 16;
+  static double s14 = 14;
 }
