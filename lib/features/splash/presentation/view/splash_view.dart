@@ -1,3 +1,4 @@
+import 'package:challenges/core/resources/manager_assets.dart';
 import 'package:challenges/core/resources/manager_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class SplashView extends StatelessWidget {
       body: Center(
         child: CircleAvatar(
           radius: 50,
-          backgroundImage: AssetImage('assets/images/splash.png'),
+          backgroundImage: AssetImage(ManagerAssets.splash),
         ),
       )
 
