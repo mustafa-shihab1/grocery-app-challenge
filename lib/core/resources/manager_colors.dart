@@ -8,6 +8,7 @@ class ManagerColors{
   static const Color greyColor = Colors.grey;
   static const Color greenColor = Color(0xFF6CC51D);
   static const Color lightGreenColor = Color(0xFFAEDC81);
+  static const Color boldGreyColor = Color(0xFF797171);
   static const Color lightGreyColor = Color(0xFF868889);
   static const Color bottomNavIconsColor = Color(0xFFBDBDBD);
   static const Color lineColor = Color(0xFFEBEBEB);

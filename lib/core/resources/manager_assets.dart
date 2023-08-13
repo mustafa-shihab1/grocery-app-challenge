@@ -22,4 +22,10 @@ class ManagerAssets {
   static const String grocery = '$categoriesIcons/grocery.svg';
   static const String household = '$categoriesIcons/household.svg';
   static const String vegetables = '$categoriesIcons/vegetables.svg';
+  static const String splash = '$imagesPath/splash.png';
+  static const String onBoardingImg1 = '$imagesPath/on_boarding_img1.jpg';
+  static const String onBoardingImg2 = '$imagesPath/on_boarding_img2.jpg';
+  static const String onBoardingImg3 = '$imagesPath/on_boarding_img3.jpg';
+  static const String onBoardingImg4 = '$imagesPath/on_boarding_img4.jpg';
+  static const String bigCart = '$imagesPath/big_cart.png';
 }
