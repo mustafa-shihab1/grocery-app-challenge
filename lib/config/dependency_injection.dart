@@ -1,3 +1,5 @@
+import 'package:challenges/features/auth/presentation/controller/login_controller.dart';
+import 'package:challenges/features/auth/presentation/controller/signup_controller.dart';
 import 'package:challenges/features/home/presentation/controller/home_controller.dart';
 import 'package:challenges/features/main/presentation/controller/main_controller.dart';
 import 'package:challenges/features/on_boarding/presentation/controller/on_boarding_controller.dart';
@@ -32,4 +34,23 @@ initOnBoardingModule() {
 
 disposeOnBoardingModule() {
   Get.delete<OnBoardingController>();
+}
+
+initLoginModule() {
+  disposeSplash();
+  disposeOnBoardingModule();
+  Get.put<LoginController>(LoginController());
+}
+
+disposeLoginModule() {
+  Get.delete<LoginController>();
+}
+
+initSignUpModule() {
+  disposeLoginModule();
+  Get.put<SignUpController>(SignUpController());
+}
+
+disposeSignUpModule() {
+  Get.delete<SignUpController>();
 }

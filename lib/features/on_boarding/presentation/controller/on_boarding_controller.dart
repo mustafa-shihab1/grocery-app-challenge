@@ -70,7 +70,7 @@ class OnBoardingController extends GetxController {
       animateToPage(index: ++currentPage);
       update();
     }else{
-      Get.offAllNamed(Routes.loginView);
+      Get.offAllNamed(Routes.welcomeView);
     }
   }
 
@@ -89,7 +89,7 @@ class OnBoardingController extends GetxController {
   }
 
   bool isNotLastedPage() {
-    return currentPage < lastPage;
+    return currentPage <= lastPage;
   }
 
 }

@@ -6,7 +6,7 @@ class ManagerAssets {
   static const String banners = '$imagesPath/banners.png';
   static const String favorites = '$imagesPath/favorites.svg';
   static const String home = '$imagesPath/home.svg';
-  static const String user = '$imagesPath/user.svg';
+  static const String users = '$imagesPath/user.svg';
   static const String settings = '$imagesPath/settings.svg';
   static const String search = '$imagesPath/search.svg';
   static const String salla = '$imagesPath/salla.svg';
@@ -28,4 +28,13 @@ class ManagerAssets {
   static const String onBoardingImg3 = '$imagesPath/on_boarding_img3.jpg';
   static const String onBoardingImg4 = '$imagesPath/on_boarding_img4.jpg';
   static const String bigCart = '$imagesPath/big_cart.png';
+  static const String welcomeImg = '$imagesPath/welcome_img.png';
+  static const String loginImg = '$imagesPath/login_img.png';
+  static const String signupImg = '$imagesPath/signup_img.png';
+  static const String google = '$imagesPath/google.png';
+  static const String user = '$imagesPath/user.png';
+  static const String email = '$imagesPath/email.png';
+  static const String eye = '$imagesPath/eye.png';
+  static const String lock = '$imagesPath/lock.png';
+  static const String phone = '$imagesPath/phone.png';
 }

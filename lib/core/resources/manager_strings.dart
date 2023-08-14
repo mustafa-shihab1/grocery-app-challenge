@@ -25,6 +25,27 @@ class ManagerStrings{
       'Lorem ipsum dolor sit amet, consetetur\nsadipscing elitr, sed diam nonumy';
   static const String back = 'Back';
   static const String next = 'Next';
+  static const String welcome = 'Welcome';
+  static const String login = 'Login';
+  static const String signup = 'Sign Up';
+  static const String continueWithGoogle = 'Continue with google';
+  static const String createAccount = 'Create an account';
+  static const String alreadyHaveAccount = 'Already have an account ? ';
+  static const String notHaveAccount = 'Don’t have an account ? ';
+  static const String welcomeBack = 'Welcome back !';
+  static const String signInToYourAccount = 'Sign in to your account';
+  static const String quicklyCreateAccount = 'Quickly create account';
+  static const String forgotPassword = 'Forgot password';
+  static const String emailAddressHint = 'Email Address';
+  static const String phoneNumber = 'Phone Number';
+  static const String passwordHint = '  * * * * * * * *';
+  static const String invalidEmail = 'Invalid Email';
+  static const String invalidPassword = 'invalid Password';
+  static const String requiredFullName = 'Full Name is required';
+  static const String requiredPhone = 'Phone is required';
+  static const String invalidPhone = 'Invalid Phone No.';
+
+
 
 
 

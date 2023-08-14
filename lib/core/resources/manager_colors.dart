@@ -29,6 +29,7 @@ class ManagerColors{
   static const Color pPeachColor = Color(0xFFFFCEC1);
   static const Color pPineappleColor = Color(0xFFFFE6C2);
   static const Color pPomegranateColor = Color(0xFFFFE3E2);
+  static const Color blueColor = Color(0xFF407EC7);
 
   static const Gradient primaryGradient = LinearGradient(
     colors: [whiteColor, backgroundColor],
