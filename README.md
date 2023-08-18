@@ -21,7 +21,8 @@ samples, guidance on mobile development, and a full API reference.
 - Welcome Screen
 - Login Screen
 - SignUp Screen
+- Home Screen
 
   
-![Alt project-screens](https://i.ibb.co/92YHhJ3/mockup.png)
+![Alt project-screens](https://i.ibb.co/85D2kSq/mockup.png)
 
